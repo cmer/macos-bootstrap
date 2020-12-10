@@ -1,16 +1,9 @@
 #!/bin/bash
 
-# SETTINGS
-HOMEBREW_PACKAGES="htop-osx wget mas rbenv ruby-build starship yadm gpg"
-HOMEBREW_FONT_LIST="hack-nerd-font fira-code-nerd-font inconsolata-nerd-font inter poppins inconsolata source-code-pro source-sans-pro"
-HOMEBREW_QUICKLOOK="qlcolorcode qlmarkdown qlprettypatch qlstephen qlimagesize quicklook-csv quicklook-json epubquicklook"
-HOMEBREW_CASKS="google-chrome karabiner-elements the-unarchiver 1password spotify iterm2 slack mailplane nextcloud hammerspoon"
-
-
-################################################################################
-
 # Remember where this script is
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+source $DIR/CONFIG
 
 # Initialize bootstrap script functions and helpers
 source $DIR/helpers/bash_helpers.sh
