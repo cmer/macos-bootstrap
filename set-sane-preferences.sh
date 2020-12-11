@@ -93,14 +93,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 echo "Disabling press-and-hold for special keys in favor of key repeat"
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-echo "Setting a blazingly fast keyboard repeat rate"
-defaults write NSGlobalDomain KeyRepeat -int 0
-
 echo "Setting trackpad & mouse speed to a reasonable number"
 defaults write -g com.apple.trackpad.scaling 2
 defaults write -g com.apple.mouse.scaling 2.5
-
-echo "Turn off keyboard illumination when computer is not used for 5 minutes"
 
 echo "Show status bar in Finder by default."
 defaults write com.apple.finder ShowStatusBar -bool true
@@ -125,9 +120,6 @@ defaults write com.apple.Safari ShowSidebarInTopSites -bool false
 
 echo "Disabling Safari's thumbnail cache for History and Top Sites"
 defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
-
-echo "Enabling Safari's debug menu"
-defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 
 echo "Making Safari's search banners default to Contains instead of Starts With"
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
