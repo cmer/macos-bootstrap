@@ -8,7 +8,7 @@
 #
 HOMEBREW_PACKAGES="htop-osx wget mas rbenv ruby-build starship yadm gpg"
 HOMEBREW_QUICKLOOK="qlcolorcode qlmarkdown qlprettypatch qlstephen qlimagesize quicklook-csv quicklook-json epubquicklook"
-HOMEBREW_CASKS="google-chrome karabiner-elements the-unarchiver 1password spotify iterm2 slack mailplane nextcloud hammerspoon"
+HOMEBREW_CASKS="google-chrome karabiner-elements the-unarchiver 1password spotify iterm2 slack nextcloud hammerspoon"
 
 # Do not add the `font-` prefix in front of each package name. It is done automatically by the installation script.
 HOMEBREW_FONT_LIST="hack-nerd-font fira-code-nerd-font inconsolata-nerd-font inter poppins inconsolata source-code-pro source-sans-pro"
